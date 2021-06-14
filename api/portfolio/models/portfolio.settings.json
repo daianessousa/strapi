@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "portfolios",
   "info": {
-    "name": "Portfolio"
+    "name": "Portfolio",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -34,6 +35,12 @@
     },
     "DescriptionProject": {
       "type": "richtext"
+    },
+    "Slug": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "string"
     }
   }
 }
