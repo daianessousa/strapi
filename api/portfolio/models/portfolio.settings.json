@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolios",
+  "info": {
+    "name": "Portfolio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TitleProject": {
+      "type": "string"
+    },
+    "ImgProject": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "LinkProject": {
+      "type": "string"
+    },
+    "DateProject": {
+      "type": "date"
+    },
+    "DescriptionProject": {
+      "type": "richtext"
+    }
+  }
+}
