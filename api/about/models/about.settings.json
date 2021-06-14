@@ -20,6 +20,9 @@
     },
     "Apresentation": {
       "type": "string"
+    },
+    "ResumeSigle": {
+      "type": "richtext"
     }
   }
 }

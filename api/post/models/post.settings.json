@@ -40,6 +40,12 @@
     },
     "Date": {
       "type": "date"
+    },
+    "Category": {
+      "type": "string"
+    },
+    "InitialExibition": {
+      "type": "boolean"
     }
   }
 }
