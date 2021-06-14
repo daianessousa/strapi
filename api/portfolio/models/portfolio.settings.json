@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "TitleProject": {
+    "Title": {
       "type": "string"
     },
-    "ImgProject": {
+    "Pictures": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -30,10 +30,10 @@
     "LinkProject": {
       "type": "string"
     },
-    "DateProject": {
+    "Date": {
       "type": "date"
     },
-    "DescriptionProject": {
+    "Description": {
       "type": "richtext"
     },
     "Slug": {

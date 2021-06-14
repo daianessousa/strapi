@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "TitleAbout": {
+    "Title": {
       "type": "string"
     },
-    "ResumeAbout": {
+    "Resume": {
       "type": "richtext"
     },
     "Apresentation": {

@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "certificateiCO": {
+    "Pictures": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -24,10 +24,10 @@
       "required": false,
       "pluginOptions": {}
     },
-    "Titlecertificate": {
+    "Title": {
       "type": "string"
     },
-    "DateCourse": {
+    "Date": {
       "type": "date"
     },
     "Certificate": {
